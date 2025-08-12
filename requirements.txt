@@ -1,0 +1,4 @@
+Flask==2.3.2
+pyTelegramBotAPI==4.12.0
+yt-dlp==2025.06.28
+gunicorn==20.1.0
