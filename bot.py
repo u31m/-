@@ -2,7 +2,7 @@ import telebot
 import requests
 import time
 
-# ضع التوكن الخاص بك هنا من BotFather
+#  مكان التوكن BotFather
 API_TOKEN = 'YOUR_BOT_TOKEN_HERE'
 bot = telebot.TeleBot(API_TOKEN)
 
@@ -19,7 +19,7 @@ def check_messages(email):
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-    bot.reply_to(message, "أهلاً بك! اضغط على /newmail للحصول على إيميل وهمي جديد.")
+    bot.reply_to(message, "منور اضغط على /newmail للحصول على إيميل وهمي جديد.")
 
 @bot.message_handler(commands=['newmail'])
 def new_mail(message):
